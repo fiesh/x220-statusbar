@@ -4,7 +4,7 @@
 SLEEP_SEC=5
 
 BATTERY_PATH=/sys/devices/platform/smapi/BAT0
-FAN_PATH=/sys/devices/platform/thinkpad_hwmon/fan1_input
+FAN_PATH=/sys/devices/platform/thinkpad_hwmon/hwmon/hwmon1/fan1_input
 TEMP_PATH=/sys/devices/virtual/hwmon/hwmon0/temp1_input
 
 while :; do
